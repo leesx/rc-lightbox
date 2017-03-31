@@ -3,7 +3,7 @@
 ## 安装
 `npm install rc-lightbox --save`
 
->  说明: 动画部分需要安装 `tween-one`
+>  tips: 如果你的项目中没有安装 `rc-tween-one` 需要安装一下。
 ## 用法
 
 `import Lightbox from 'rc-lightbox'`
@@ -13,7 +13,7 @@
         isOpen={this.state.lightboxIsOpen}
         currentImage = {this.state.currentImage}
         onClose={this.closeLightBox}
-      />
+/>
 ```
 ### 参数说明
 属性|类型|默认值|说明
