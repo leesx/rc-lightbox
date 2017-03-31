@@ -2,7 +2,12 @@
 ## 安装 :rocket:
 `npm install rc-lightbox --save`
 
->  tips: 如果你的项目中没有安装 `rc-tween-one` 需要安装一下。
+or
+`https://github.com/leesx/rc-lightbox.git`
+
+> 如果你clone下来的，请在项目中使用bebel,转化代码为es5
+
+> tips: 如果你的项目中没有安装 `rc-tween-one` 需要安装一下。
 ## 用法
 
 `import Lightbox from 'rc-lightbox'`
@@ -67,7 +72,6 @@ export default  class Lightbox2 extends Component{
             lightboxImgData:[],
             lightboxIsOpen:false,
             currentImage:0,
-
         }
     }
 
@@ -96,10 +100,6 @@ export default  class Lightbox2 extends Component{
             data.map((item,index)=>{
                 return (
                   <li
-                   style={{
-                             WebkitTransform: `opacity:${x}`,
-                             transform: `opacity:${x}`,
-                           }}
                    key={`img_${index}`}
                    onClick={this.showPicModal.bind(this,{imgs:data,index})}
                    >
@@ -110,11 +110,7 @@ export default  class Lightbox2 extends Component{
         )
     }
 
-
-
     render() {
-
-
         return (
             <div className="self-calendar">
                 <button
