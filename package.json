@@ -1,0 +1,25 @@
+{
+  "name": "rc-lightbox",
+  "version": "2.1.1",
+  "description": "This is like jq lightbox2 ,but it is a react version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesx/rc-lightbox.git"
+  },
+  "keywords": [
+    "rc-lightbox",
+    "react-images",
+    "react-lightbox2",
+    "react-lightbox"
+  ],
+  "author": "leesx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leesx/rc-lightbox/issues"
+  },
+  "homepage": "https://github.com/leesx/rc-lightbox#readme"
+}
