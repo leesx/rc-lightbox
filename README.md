@@ -1,6 +1,5 @@
-### this is a cool react Lightbox2
-
-## 安装
+### This is an excellent lightbox. It is modeled on the jQuery version of the lightbox2. It has a great user experience. :100:
+## 安装 :rocket:
 `npm install rc-lightbox --save`
 
 >  tips: 如果你的项目中没有安装 `rc-tween-one` 需要安装一下。
@@ -15,7 +14,7 @@
         onClose={this.closeLightBox}
 />
 ```
-### 参数说明
+### 参数说明 :art:
 属性|类型|默认值|说明
 -|-|-|-
 isOpen|布尔值{Boolean}|false|设置lightbox的状态
@@ -23,7 +22,7 @@ imgSource|数组{Array}|[]| [{src:'http://'}]
 currentImage|布尔值{Number}|0 | 当前第几张图片
 onClose|函数{Function}|-|关闭lightbox
 
-#### 示例代码
+#### 示例代码 :tada:
 ```
 import React, { Component, PropTypes } from 'react'
 import { findDOMNode } from 'react-dom'
