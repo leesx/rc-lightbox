@@ -48,7 +48,7 @@ export default class LightBox extends Component{
 
 
     componentWillReceiveProps=(nextProps)=>{
-        if(nextProps.currentImage != 'undefined'){
+        if(nextProps.currentImage !== undefined){
             this.setState({
                 currentImage: nextProps.currentImage,
                 imgSource:nextProps.imgSource,
