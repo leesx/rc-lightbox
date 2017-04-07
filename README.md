@@ -5,7 +5,8 @@
 or
 `https://github.com/leesx/rc-lightbox.git`
 
-> 如果你clone下来的，请在项目中使用bebel,转化代码为es5
+> 如果你clone下来的，请在项目中使用babel,转化代码为es5
+
 
 > tips: 如果你的项目中没有安装 `rc-tween-one` 需要安装一下。
 ## 用法
