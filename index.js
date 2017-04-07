@@ -1,4 +1,10 @@
 /**
+ * 2017-4-7
+ * lightbox2
+ * 修复一个已知bug
+ */
+
+/**
  * 2017-3-31
  * lightbox2
  * 在图片切换的时候增加了动画效果。
@@ -48,7 +54,7 @@ export default class LightBox extends Component{
 
 
     componentWillReceiveProps=(nextProps)=>{
-        if(nextProps.currentImage != 'undefined'){
+        if(nextProps.currentImage !== undefined){
             this.setState({
                 currentImage: nextProps.currentImage,
                 imgSource:nextProps.imgSource,
@@ -186,11 +192,11 @@ export default class LightBox extends Component{
 
 
     render(){
-        const isDisplay = this.props.isOpen  ? 'show' : 'hide'
+        const displayStyle = this.props.isOpen  ? {display:'block'} : {display:'none'}
 
         const { imgWidth, imgHeight,top,left, } = this.state
         return (
-            <div ref="lightBox" className = {isDisplay}>
+            <div ref="lightBox" style = {displayStyle}>
                 <TweenOne
                     id="overlay"
                     className="lightboxOverlay"

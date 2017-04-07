@@ -1,7 +1,7 @@
 {
   "name": "rc-lightbox",
-  "version": "2.1.1",
-  "description": "This is like jq lightbox2 ,but it is a react version.",
+  "version": "2.1.6",
+  "description": "This is an excellent lightbox. It is modeled on the jQuery version of the lightbox2. It has a great user experience",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
