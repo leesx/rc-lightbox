@@ -35,7 +35,7 @@ body:after {
   height: auto;
   max-width: inherit;
   border-radius: 3px;
-  transition: all 1s ease;
+  transition: all .1s ease-in;
 }
 
 .lightbox a img {
@@ -45,12 +45,12 @@ body:after {
 .lb-outerContainer {
   position: relative;
   background-color: white;
-  *
-  zoom: 1;
+  *zoom: 1;
   width: 250px;
   height: 250px;
   margin: 0 auto;
   border-radius: 4px;
+  transition: all .3s ease-out;
 }
 
 .lb-outerContainer:after {
@@ -61,7 +61,7 @@ body:after {
 
 .lb-container {
   padding: 4px;
-  transition: all .5s ease-out;
+
 }
 
 .lb-loader {

@@ -1,6 +1,6 @@
 {
   "name": "rc-lightbox",
-  "version": "2.1.7",
+  "version": "2.1.9",
   "description": "This is an excellent lightbox. It is modeled on the jQuery version of the lightbox2. It has a great user experience",
   "main": "index.js",
   "scripts": {
